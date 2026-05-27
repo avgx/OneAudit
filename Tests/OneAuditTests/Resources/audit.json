@@ -1,0 +1,1115 @@
+{
+   "events" : [
+      {
+         "data" : {
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "mac_address" : "",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 13,
+         "timestamp" : "20191004T114739"
+      },
+      {
+         "data" : {
+            "archive" : "Архив AliceBlue",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " рхивaliceblue хивaliceblue ивaliceblue вaliceblue aliceblue liceblue iceblue ceblue eblue blue lue ue e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 21,
+         "timestamp" : "20191004T114813"
+      },
+      {
+         "data" : {
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 15,
+         "timestamp" : "20191004T114946"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор движения",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T114959"
+      },
+      {
+         "data" : {
+            "autoRule" : "Запись в архив",
+            "detector" : "Детектор движения",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T115004"
+      },
+      {
+         "data" : {
+            "component" : "1.Камера",
+            "componentType" : "camera",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/3_mp4_low"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T115031"
+      },
+      {
+         "data" : {
+            "component" : "1.Камера",
+            "componentType" : "camera",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/3_mp4"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T115031"
+      },
+      {
+         "data" : {
+            "autoRule" : "Ожидание",
+            "detector" : "Движение в области",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T120645"
+      },
+      {
+         "data" : {
+            "autoRule" : "Инициирование тревоги",
+            "detector" : "Движение в области",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T120645"
+      },
+      {
+         "data" : {
+            "autoRule" : "Камера: Завершить тревогу",
+            "detector" : "Движение в области",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T120645"
+      },
+      {
+         "data" : {
+            "detector" : "Движение в области",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T120646"
+      },
+      {
+         "data" : {
+            "detector" : "Трекер объектов",
+            "device" : "1.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T120646"
+      },
+      {
+         "data" : {
+            "component" : "1.Дорога",
+            "componentType" : "camera",
+            "device" : "1.Дорога",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .дорога дорога орога рога ога га а .дорога дорога орога рога ога га а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "Comment",
+            "role" : "admin",
+            "setting" : "Комментарий",
+            "user" : "root",
+            "value" : "кампус"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T121005"
+      },
+      {
+         "data" : {
+            "component" : "1.Дорога",
+            "componentType" : "camera",
+            "device" : "1.Дорога",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .дорога дорога орога рога ога га а .дорога дорога орога рога ога га а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "DisplayName",
+            "role" : "admin",
+            "setting" : "Имя",
+            "user" : "root",
+            "value" : "Дорога"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T121005"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 39,
+         "timestamp" : "20191004T121311"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда2",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 39,
+         "timestamp" : "20191004T121343"
+      },
+      {
+         "data" : {
+            "autoRule" : "Камера: Завершить тревогу",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда2",
+            "modifier" : "macro",
+            "property" : "Conditions",
+            "role" : "admin",
+            "setting" : "Условия",
+            "user" : "root",
+            "value" : "Новое значение"
+         },
+         "eventType" : 26,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда2",
+            "property" : "TimeZone",
+            "role" : "admin",
+            "setting" : "Временная зона",
+            "user" : "root",
+            "value" : ""
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "property" : "Conditions",
+            "role" : "admin",
+            "setting" : "Условия",
+            "user" : "root",
+            "value" : "Новое значение"
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда2",
+            "property" : "Mode",
+            "role" : "admin",
+            "setting" : "Режим работы",
+            "user" : "root",
+            "value" : "Всегда"
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда2",
+            "property" : "Name",
+            "role" : "admin",
+            "setting" : "Название:",
+            "user" : "root",
+            "value" : "Макрокоманда2 Конец тревоги по камере 1"
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "property" : "TimeZone",
+            "role" : "admin",
+            "setting" : "Временная зона",
+            "user" : "root",
+            "value" : ""
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда2",
+            "property" : "Conditions",
+            "role" : "admin",
+            "setting" : "Условия",
+            "user" : "root",
+            "value" : "Новое значение"
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "autoRule" : "Инициирование тревоги",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "modifier" : "macro",
+            "property" : "Conditions",
+            "role" : "admin",
+            "setting" : "Условия",
+            "user" : "root",
+            "value" : "Новое значение"
+         },
+         "eventType" : 26,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "autoRule" : "Инициирование тревоги",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "modifier" : "macro",
+            "property" : "Camera",
+            "role" : "admin",
+            "setting" : "Камера",
+            "user" : "root",
+            "value" : "1.Дорога"
+         },
+         "eventType" : 26,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "property" : "Mode",
+            "role" : "admin",
+            "setting" : "Режим работы",
+            "user" : "root",
+            "value" : "Всегда"
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "ip_address" : "10.0.48.19",
+            "lexems" : " oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "macro" : "Макрокоманда1",
+            "property" : "Name",
+            "role" : "admin",
+            "setting" : "Название:",
+            "user" : "root",
+            "value" : "Макрокоманда1 Тревога по камере 1"
+         },
+         "eventType" : 41,
+         "timestamp" : "20191004T121423"
+      },
+      {
+         "data" : {
+            "detector" : "Остановка в области",
+            "device" : "1.Дорога",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .дорога дорога орога рога ога га а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T121446"
+      },
+      {
+         "data" : {
+            "detector" : "Остановка в области",
+            "device" : "1.Дорога",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .дорога дорога орога рога ога га а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 19,
+         "timestamp" : "20191004T121502"
+      },
+      {
+         "data" : {
+            "device" : "2.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 15,
+         "timestamp" : "20191004T121920"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор движения",
+            "device" : "2.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T121930"
+      },
+      {
+         "data" : {
+            "autoRule" : "Запись в архив",
+            "detector" : "Детектор движения",
+            "device" : "2.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T121936"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера",
+            "componentType" : "camera",
+            "device" : "2.Камера",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камера камера амера мера ера ра а .камера камера амера мера ера ра а oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/face2_low"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T121948"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T122025"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "DisplayName",
+            "role" : "admin",
+            "setting" : "Имя",
+            "user" : "root",
+            "value" : "Камера face"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T122058"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/face1"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T122126"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "b0190336-5f40-4849-b5a1-062a96116111",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Область детектирования"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T122219"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор движения",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 19,
+         "timestamp" : "20191004T122355"
+      },
+      {
+         "data" : {
+            "autoRule" : "Ожидание",
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T122355"
+      },
+      {
+         "data" : {
+            "autoRule" : "Камера: Завершить тревогу",
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T122355"
+      },
+      {
+         "data" : {
+            "autoRule" : "Инициирование тревоги",
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 24,
+         "timestamp" : "20191004T122355"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "EnableRealtimeRecognition",
+            "role" : "admin",
+            "setting" : "Распознавание в реальном времени",
+            "user" : "root",
+            "value" : "Да"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T122537"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "b0190336-5f40-4849-b5a1-062a96116111",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Область детектирования"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T122700"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "b0190336-5f40-4849-b5a1-062a96116111",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Область детектирования"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T122731"
+      },
+      {
+         "data" : {
+            "archive" : "Архив AliceBlue",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " рхивaliceblue хивaliceblue ивaliceblue вaliceblue aliceblue liceblue iceblue ceblue eblue blue lue ue e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "RecordMode",
+            "role" : "admin",
+            "setting" : "RecordMode",
+            "user" : "root",
+            "value" : "Permanently"
+         },
+         "eventType" : 35,
+         "timestamp" : "20191004T122849"
+      },
+      {
+         "data" : {
+            "autoRule" : "Камера: Завершить тревогу",
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 25,
+         "timestamp" : "20191004T122910"
+      },
+      {
+         "data" : {
+            "autoRule" : "Инициирование тревоги",
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 25,
+         "timestamp" : "20191004T122910"
+      },
+      {
+         "data" : {
+            "autoRule" : "Ожидание",
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 25,
+         "timestamp" : "20191004T122910"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "ShouldWriteVmdaData",
+            "role" : "admin",
+            "setting" : "Запись траекторий объектов",
+            "user" : "root",
+            "value" : "Нет"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T122926"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/auto"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T123010"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/h264_640x480_30fps"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T123032"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/h265samples"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T123102"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/6q"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T123118"
+      },
+      {
+         "data" : {
+            "component" : "2.Камера face",
+            "componentType" : "camera",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "vstream-virtual/folder",
+            "role" : "admin",
+            "setting" : "Каталог",
+            "user" : "root",
+            "value" : "D:/avi/5q"
+         },
+         "eventType" : 17,
+         "timestamp" : "20191004T123131"
+      },
+      {
+         "data" : {
+            "detector" : "Детектор лиц",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 19,
+         "timestamp" : "20191004T123216"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 18,
+         "timestamp" : "20191004T123524"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "PeopleCounter/humansize",
+            "role" : "admin",
+            "setting" : "Размер человека",
+            "user" : "root",
+            "value" : "36,341625"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123538"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "PeopleCounter/humansize",
+            "role" : "admin",
+            "setting" : "Размер человека",
+            "user" : "root",
+            "value" : "25,859854"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123553"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "66998df6-eb5b-4ef9-81f0-3f77375a7271",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123702"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "aa6f57bc-0ab0-4628-adeb-f346ab0558a7",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123702"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "ed4c67ee-7be1-4b1c-b091-95a09fd53d86",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Область детекции"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123702"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "PeopleCounter/humansize",
+            "role" : "admin",
+            "setting" : "Размер человека",
+            "user" : "root",
+            "value" : "20"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123702"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "66998df6-eb5b-4ef9-81f0-3f77375a7271",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123730"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "aa6f57bc-0ab0-4628-adeb-f346ab0558a7",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123730"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "ed4c67ee-7be1-4b1c-b091-95a09fd53d86",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Область детекции"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123730"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "66998df6-eb5b-4ef9-81f0-3f77375a7271",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123742"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "aa6f57bc-0ab0-4628-adeb-f346ab0558a7",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123742"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "66998df6-eb5b-4ef9-81f0-3f77375a7271",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123756"
+      },
+      {
+         "data" : {
+            "detector" : "Подсчет посетителей",
+            "device" : "2.Камера face",
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "lexems" : " .камераface камераface амераface мераface ераface раface аface face ace ce e oot ot t dmin min in n",
+            "mac_address" : "0C8BFDC9F1D5",
+            "property" : "aa6f57bc-0ab0-4628-adeb-f346ab0558a7",
+            "role" : "admin",
+            "setting" : "Визуальный элемент",
+            "user" : "root",
+            "value" : "Области входа/выхода"
+         },
+         "eventType" : 20,
+         "timestamp" : "20191004T123756"
+      },
+      {
+         "data" : {
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "mac_address" : "",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 14,
+         "timestamp" : "20191004T124038"
+      },
+      {
+         "data" : {
+            "host" : "LENOVO-PC",
+            "ip_address" : "10.0.48.19",
+            "mac_address" : "",
+            "role" : "admin",
+            "user" : "root"
+         },
+         "eventType" : 13,
+         "timestamp" : "20191004T125034"
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+import Foundation
+
+/// `InjectCameraViewingEventRequest` in `Audit.proto`.
+public struct InjectCameraViewingEventRequest: Encodable, Sendable, Equatable {
+    public let camera_ap: AccessPoint
+
+    public init(camera_ap: AccessPoint) {
+        self.camera_ap = camera_ap
+    }
+}
