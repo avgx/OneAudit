@@ -4,40 +4,6 @@ import RequestResponse
 
 /// Audit API (`Audit.proto` inject + legacy Next web journal).
 public enum AuditApi {
-    // MARK: - Journal (legacy Next web server)
-
-    /// `GET audit/{host}/{endTime}/{beginTime}?filter=...`
-    public static func listJournal(
-        host: String,
-        filter: AuditJournalFilter
-    ) -> Request<AuditJournalResponse> {
-        listJournal(
-            host: host,
-            endTime: Timestamp.utc.string(from: filter.end),
-            beginTime: Timestamp.utc.string(from: filter.begin),
-            filter: AuditEventType.filterQuery(filter.eventTypes)
-        )
-    }
-
-    /// Low-level journal request with wire timestamp strings.
-    public static func listJournal(
-        host: String,
-        endTime: String,
-        beginTime: String,
-        filter: String = ""
-    ) -> Request<AuditJournalResponse> {
-        var query: [(String, String?)] = []
-        if !filter.isEmpty {
-            query.append(("filter", filter))
-        }
-        return Request(
-            path: "audit/\(host)/\(endTime)/\(beginTime)",
-            method: .get,
-            query: query,
-            headers: ["Accept": "application/json"]
-        )
-    }
-
     // MARK: - Inject (`AuditEventInjector`)
 
     public static func injectCameraViewingEvent(cameraAp: AccessPoint) -> Request<Void> {
