@@ -2,39 +2,39 @@ import Foundation
 import OneWireFormat
 import RequestResponse
 
-/// Audit API (`Audit.proto` inject + legacy Next web journal).
+/// Native BL audit inject API (`Audit.proto` / `AuditEventInjector`).
+///
+/// Read audit history via OneEventHistory (`ET_Audit` / `ReadEvents`), not this package.
 public enum AuditApi {
-    // MARK: - Inject (`AuditEventInjector`)
-
+    /// Endpoint: `POST /v1/audit/injectCameraViewingEvent`
     public static func injectCameraViewingEvent(cameraAp: AccessPoint) -> Request<Void> {
-        let body = InjectCameraViewingEventRequest(camera_ap: cameraAp)
-        return Request(
+        Request(
             path: "v1/audit/injectCameraViewingEvent",
             method: .post,
-            body: body,
+            body: InjectCameraViewingEventRequest(camera_ap: cameraAp),
             id: "injectCameraViewingEvent"
         )
     }
 
+    /// Endpoint: `POST /v1/audit/injectArchiveViewingEvent`
     public static func injectArchiveViewingEvent(
         cameraAp: AccessPoint,
         archiveAp: AccessPoint
     ) -> Request<Void> {
-        let body = InjectArchiveViewingEventRequest(camera_ap: cameraAp, archive_ap: archiveAp)
-        return Request(
+        Request(
             path: "v1/audit/injectArchiveViewingEvent",
             method: .post,
-            body: body,
+            body: InjectArchiveViewingEventRequest(camera_ap: cameraAp, archive_ap: archiveAp),
             id: "injectArchiveViewingEvent"
         )
     }
 
+    /// Endpoint: `POST /v1/audit/injectPtzControlEvent`
     public static func injectPtzControlEvent(cameraAp: AccessPoint) -> Request<Void> {
-        let body = InjectPtzControlEventRequest(camera_ap: cameraAp)
-        return Request(
+        Request(
             path: "v1/audit/injectPtzControlEvent",
             method: .post,
-            body: body,
+            body: InjectPtzControlEventRequest(camera_ap: cameraAp),
             id: "injectPtzControlEvent"
         )
     }

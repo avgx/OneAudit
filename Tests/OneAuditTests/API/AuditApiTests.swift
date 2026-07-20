@@ -5,22 +5,7 @@ import Testing
 
 @Suite("AuditApi request builders")
 struct AuditApiTests {
-    @Test("listJournal builds path and filter query")
-    func listJournal_query() {
-        let begin = Date(timeIntervalSince1970: 1_569_588_000)
-        let end = Date(timeIntervalSince1970: 1_569_674_000)
-        let filter = AuditJournalFilter(
-            begin: begin,
-            end: end,
-            eventTypes: [.AE_USER_LOGIN, .AE_DEVICE_ADD]
-        )
-        let request = AuditApi.listJournal(host: "HOST-1", filter: filter)
-        #expect(request.method == .get)
-        #expect(request.path.contains("HOST-1"))
-        #expect(request.query?.contains(where: { $0.0 == "filter" && $0.1 == "13,15" }) == true)
-    }
-
-    @Test("inject camera viewing posts body")
+    @Test("injectCameraViewingEvent posts v1 body")
     func injectCameraViewing() {
         let cameraAp = "hosts/SERVER/DeviceIpint.1/SourceEndpoint.video:0:0"
         let request = AuditApi.injectCameraViewingEvent(cameraAp: cameraAp)
@@ -28,5 +13,34 @@ struct AuditApiTests {
         #expect(request.method == .post)
         let body = request.body as? InjectCameraViewingEventRequest
         #expect(body?.camera_ap == cameraAp)
+    }
+
+    @Test("injectArchiveViewingEvent posts camera and archive")
+    func injectArchiveViewing() {
+        let cameraAp = "hosts/SERVER/DeviceIpint.1/SourceEndpoint.video:0:0"
+        let archiveAp = "hosts/SERVER/MultimediaStorage.AliceBlue/MultimediaStorage"
+        let request = AuditApi.injectArchiveViewingEvent(cameraAp: cameraAp, archiveAp: archiveAp)
+        #expect(request.path == "v1/audit/injectArchiveViewingEvent")
+        #expect(request.method == .post)
+        let body = request.body as? InjectArchiveViewingEventRequest
+        #expect(body?.camera_ap == cameraAp)
+        #expect(body?.archive_ap == archiveAp)
+    }
+
+    @Test("injectPtzControlEvent posts v1 body")
+    func injectPtzControl() {
+        let cameraAp = "hosts/SERVER/DeviceIpint.1/SourceEndpoint.video:0:0"
+        let request = AuditApi.injectPtzControlEvent(cameraAp: cameraAp)
+        #expect(request.path == "v1/audit/injectPtzControlEvent")
+        #expect(request.method == .post)
+        let body = request.body as? InjectPtzControlEventRequest
+        #expect(body?.camera_ap == cameraAp)
+    }
+
+    @Test("typed Request response markers")
+    func typedRequestMarkers() {
+        let _: Request<Void> = AuditApi.injectCameraViewingEvent(cameraAp: "hosts/X")
+        let _: Request<Void> = AuditApi.injectArchiveViewingEvent(cameraAp: "hosts/X", archiveAp: "hosts/Y")
+        let _: Request<Void> = AuditApi.injectPtzControlEvent(cameraAp: "hosts/X")
     }
 }

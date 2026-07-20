@@ -1,57 +1,63 @@
 # OneAudit
 
-Hand-written Swift models and HTTP request builders for the audit API.
+Swift package with **typed HTTP request builders** for Native BL **audit inject** endpoints (`/v1/audit/inject*`), aligned with `Audit.proto`.
 
-**Sources of truth:**
+Reading the audit journal / `ET_Audit` events is **OneEventHistory** (`ReadEvents` with `EEventType.audit`), not this package.
 
-- [Audit.proto](https://github.com/jerrygergov/axxon-telegram-vms/blob/main/support/protos/axxonsoft/bl/audit/Audit.proto) — inject endpoints (`/v1/audit/inject*`)
-- [Events.proto — AuditEvent](https://github.com/jerrygergov/axxon-telegram-vms/blob/main/support/protos/axxonsoft/bl/events/Events.proto) — `EAuditEventType`, stream payload (`ET_Audit`)
-- Legacy Next web server — `GET audit/{host}/{end}/{begin}?filter=...`
+No protobuf code generation.
 
-No `protoc` code generation.
+**Platforms:** iOS 15+, macOS 13+, tvOS 17+, visionOS 1+  
+**Swift tools:** 6.1+
 
 ## Dependencies
 
 | Package | Role |
 |---------|------|
-| [RequestResponse](https://github.com/avgx/RequestResponse) | `AuditApi` → `Request<T>` |
-| [OneWireFormat](https://github.com/avgx/OneWireFormat) | `AccessPoint`, `Timestamp.utc` |
-| [SafeEnum](https://github.com/avgx/SafeEnum) | Unknown `eventType` / `operation` values |
+| [RequestResponse](https://github.com/avgx/RequestResponse) | `AuditApi` → `Request<Void>` |
+| [OneWireFormat](https://github.com/avgx/OneWireFormat) | `AccessPoint` |
 
-## Journal
+## API surface (`AuditApi`)
+
+| Method | HTTP |
+|--------|------|
+| `injectCameraViewingEvent(cameraAp:)` | `POST /v1/audit/injectCameraViewingEvent` |
+| `injectArchiveViewingEvent(cameraAp:archiveAp:)` | `POST /v1/audit/injectArchiveViewingEvent` |
+| `injectPtzControlEvent(cameraAp:)` | `POST /v1/audit/injectPtzControlEvent` |
+
+## Usage
 
 ```swift
 import OneAudit
 import RequestResponse
+import HTTP
 
-let filter = AuditJournalFilter(
-    begin: startDate,
-    end: endDate,
-    eventTypes: [.AE_USER_LOGIN, .AE_DEVICE_ADD]
+try await http.send(
+    AuditApi.injectCameraViewingEvent(cameraAp: cameraAp),
+    with: builder
 )
-let page = try await http.send(AuditApi.listJournal(host: host, filter: filter), with: builder).value
-for entry in page.events {
-    print(entry.displayText())
-}
-```
 
-Wire timestamps use `Timestamp.utc` (`yyyyMMdd'T'HHmmss`).
-
-## Inject
-
-```swift
-try await http.send(AuditApi.injectCameraViewingEvent(cameraAp: cameraAp), with: builder)
 try await http.send(
     AuditApi.injectArchiveViewingEvent(cameraAp: cameraAp, archiveAp: archiveAp),
     with: builder
 )
+
+try await http.send(
+    AuditApi.injectPtzControlEvent(cameraAp: cameraAp),
+    with: builder
+)
 ```
 
-## Localization
+## Module layout
 
-Event templates live in `Resources/Localizable.xcstrings` (`audit.event.*` and legacy `AuditJournalMessage_*` keys).
+```
+Sources/OneAudit/
+  API/AuditApi.swift
+  Inject/          request bodies
+  AccessPoint.swift
+```
 
-```swift
-let text = entry.displayText()
-let filterLabel = AuditEventType.AE_USER_LOGIN.filterTitle
+## Tests
+
+```bash
+swift test
 ```
